@@ -10,7 +10,7 @@
     "lint": "eslint src/**/*.ts",
     "package": "ncc build --source-map --license licenses.txt",
     "test": "jest --passWithNoTests --reporters=default --reporters=jest-junit --coverage",
-    "run": "node -r lib/app.js",
+    "start": "node lib/app.js",
     "all": "npm run build && npm run format && npm run lint && npm run package && npm test"
   },
   "repository": {

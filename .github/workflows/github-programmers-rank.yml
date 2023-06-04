@@ -28,7 +28,7 @@ jobs:
         cache: 'npm'
     - run: npm install
     - run: npm run build
-    - run: npm run
+    - run: npm run start
 
   lint:
     name: Lint
