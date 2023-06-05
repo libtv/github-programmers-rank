@@ -45,10 +45,10 @@ async function main() {
         `
 
         let file_directory = __dirname.slice(0, -3) + 'dist'
-        let a = fs.readFileSync(file_directory + '\\1', 'utf-8')
+        let a = fs.readFileSync(file_directory + '/1', 'utf-8')
         let b = a + str
 
-        fs.writeFileSync(file_directory + '\\result.svg', b)
+        fs.writeFileSync(file_directory + '/result.svg', b)
         console.log('success')
     }
 }
