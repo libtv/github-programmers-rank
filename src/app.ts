@@ -11,6 +11,8 @@ async function main() {
     let my_data = null;
     
     console.log(id);
+    console.log(process.env)
+    console.log("킹받네?")
 
     // 프로그래머스 로그인
     try {
