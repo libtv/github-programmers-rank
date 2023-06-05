@@ -6,8 +6,8 @@ const PROGRAMMERS_USER_RECORD = 'https://programmers.co.kr/api/v1/users/record'
 
 async function main() {
     // 환경 변수를 가져옴
-    let id = process.env.GITHUB_TOKEN_ID || ''
-    let pw = process.env.GITHUB_TOKEN_PW || ''
+    let id = process.env.PROGRAMMERS_TOKEN_ID || ''
+    let pw = process.env.PROGRAMMERS_TOKEN_PW || ''
     let my_data = null;
     
     console.log(id);
