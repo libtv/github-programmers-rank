@@ -1,5 +1,7 @@
 import { useAxios } from "./utils/axios"
 import fs from 'fs'
+import dotenv from 'dotenv'
+dotenv.config()
 
 const PROGRAMMERS_SIGN_IN = 'https://programmers.co.kr/api/v1/account/sign-in'
 const PROGRAMMERS_USER_RECORD = 'https://programmers.co.kr/api/v1/users/record'
