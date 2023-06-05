@@ -29,6 +29,8 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
+    - run:  echo ${{ secrets.PROGRAMMERS_TOKEN_ID }}
+    - run:  echo "PROGRAMMERS_TOKEN_ID=${{ secrets.PROGRAMMERS_TOKEN_ID }}"
     - run: npm install
     - run: npm run build
     - run: npm run start
