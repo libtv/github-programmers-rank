@@ -30,10 +30,11 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
     - run:  echo ${{ secrets.PROGRAMMERS_TOKEN_ID }}
-    - run:  echo "PROGRAMMERS_TOKEN_ID=${{ secrets.PROGRAMMERS_TOKEN_ID }}"
     - run: npm install
     - run: npm run build
-    - run: npm run start
+    - run: 
+        echo "PROGRAMMERS_TOKEN_ID=${{ secrets.PROGRAMMERS_TOKEN_ID }}"
+        npm run start
 
   lint:
     name: Lint
