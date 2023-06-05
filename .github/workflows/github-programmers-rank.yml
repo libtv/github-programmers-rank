@@ -32,7 +32,7 @@ jobs:
     - run:  echo ${{ secrets.PROGRAMMERS_TOKEN_ID }}
     - run: npm install
     - run: npm run build
-    - run: 
+    - run: |
         echo "PROGRAMMERS_TOKEN_ID=${{ secrets.PROGRAMMERS_TOKEN_ID }}"
         npm run start
 
