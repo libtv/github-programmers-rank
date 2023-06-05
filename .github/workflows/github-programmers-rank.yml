@@ -33,7 +33,7 @@ jobs:
     - run: npm install
     - run: npm run build
     - run: |
-        echo "PROGRAMMERS_TOKEN_ID=${{ secrets.PROGRAMMERS_TOKEN_ID }}"
+        echo "PROGRAMMERS_TOKEN_ID=${{ secrets.PROGRAMMERS_TOKEN_ID }}" >> $GITHUB_ENV
         npm run start
 
   lint:
