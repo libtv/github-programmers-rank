@@ -17,10 +17,10 @@ export const execCmd = (cmd: string, args: string[] = []) =>
         app.on('error', reject);
     });
 
-export const commitFile = async () => {
+export const commitFile = async (files: any) => {
     await execCmd('git', ['config', '--global', 'user.email', 'github-programmers-rank@example.com']);
     await execCmd('git', ['config', '--global', 'user.name', 'github-programmers-rank[bot]']);
-    await execCmd('git', ['add', "."]);
+    await execCmd('git', ['add', files]);
     await execCmd('git', ['commit', '-m', '깃허브의 프로그래머스 순위를 나타내는 지표를 svg 형식으로 제공합니다.']);
     await execCmd('git', ['push']);
 }

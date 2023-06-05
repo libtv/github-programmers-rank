@@ -1,6 +1,7 @@
 import { useAxios } from "./utils/axios"
 import fs from 'fs'
 import dotenv from 'dotenv'
+import { commitFile } from "./utils/exec"
 dotenv.config()
 
 const PROGRAMMERS_SIGN_IN = 'https://programmers.co.kr/api/v1/account/sign-in'
@@ -115,6 +116,8 @@ async function main() {
         `
 
         fs.writeFileSync(__dirname + '/result.svg', str)
+        await commitFile(__dirname + '/result.svg')
+
         console.log('success')
     }
 }
