@@ -25,7 +25,7 @@ async function main() {
     }
     
     if (my_data !== null) {
-        let str = 
+        let str =   
         `
             <text text-anchor="middle" x="80" y="45" class="title" style="fill:#0078ff;" stroke="#none" stroke-width="1" >정복 중인 레벨</text>
             <text text-anchor="middle" x="40" y="85" class="desc" stroke="#none" stroke-width="1" >${my_data.skillCheck.level}</text>
