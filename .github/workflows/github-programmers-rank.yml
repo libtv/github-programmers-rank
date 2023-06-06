@@ -65,34 +65,7 @@ jobs:
         echo PROGRAMMERS_TOKEN_ID=${{ secrets.PROGRAMMERS_TOKEN_ID }} >> .env
         echo PROGRAMMERS_TOKEN_PW=${{ secrets.PROGRAMMERS_TOKEN_PW }} >> .env
         npm run start
-
-        build:
-          runs-on: ubuntu-latest
-      
-          strategy:
-            matrix:
-              node-version: [14.x]
-              # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
-      
-          steps:
-          - uses: actions/checkout@v3
-          - name: Use Node.js ${{ matrix.node-version }}
-            uses: actions/setup-node@v3
-            env: 
-              PROGRAMMERS_TOKEN_ID: ${{ secrets.PROGRAMMERS_TOKEN_ID }}
-              PROGRAMMERS_TOKEN_PW: ${{ secrets.PROGRAMMERS_TOKEN_PW }}
-            with:
-              node-version: ${{ matrix.node-version }}
-              cache: 'npm'
-          - run:  echo ${{ secrets.PROGRAMMERS_TOKEN_ID }}
-          - run: npm install
-          - run: npm run build
-          - run: |
-              touch .env
-              echo PROGRAMMERS_TOKEN_ID=${{ secrets.PROGRAMMERS_TOKEN_ID }} >> .env
-              echo PROGRAMMERS_TOKEN_PW=${{ secrets.PROGRAMMERS_TOKEN_PW }} >> .env
-              npm run start
-
+        
   # lint:
   #   name: Lint
 
