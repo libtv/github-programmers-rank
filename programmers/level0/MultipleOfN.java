@@ -6,7 +6,6 @@ public class MultipleOfN {
     public static void main(String[] args) {
 
     }
-
     public int solution(int num, int n) {
         if(num%n==0){
             return 1;
