@@ -65,7 +65,7 @@ public class StringBuilderClass {
         for (int i = 0; i < n; i++) {
             sb.append(str);
         }
-        System.out.println(sb.toString());
+        System.out.println(sb.toString()); // == System.out.println(sb); println 메서드는 객체를 호출할 때 자동으로 toString()메서드 호출
         
     }
 }

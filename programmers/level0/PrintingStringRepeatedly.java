@@ -12,12 +12,12 @@ public class PrintingStringRepeatedly {
         String str = sc.next();
         int n = sc.nextInt();
 
-       /* String answer = ""; 첫 번째 방법 for문
+        String answer = "";
         for (int i = 0; i < n ; i++) {
             answer += str;
         }
         System.out.println(answer);
-        */
+
 
     }
 }
