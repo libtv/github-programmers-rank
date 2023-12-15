@@ -18,7 +18,6 @@ public class ManipulatingNumbers1 {
             }
             else {
                 n = (control.charAt(i) == 'd') ? n + 10 : n - 10;
-
             }
         }
         return n;
