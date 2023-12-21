@@ -38,7 +38,6 @@ public class OurPassword {
 문자를 숫자로 변환:
 문자를 ASCII 코드로 변환하려면 (int) 형변환을 사용하면 됩니다.
 
-
 char ch = 'a';
 int asciiValue = (int) ch;
 이제 asciiValue에는 'a'의 ASCII 코드 값인 97이 저장됩니다.
