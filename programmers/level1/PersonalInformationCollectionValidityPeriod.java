@@ -80,15 +80,3 @@ public class PersonalInformationCollectionValidityPeriod {
         return ArrayAnswer;
     }
 }
-/*
-int month = Integer.parseInt(splits[1]) + MapTerms.get(splits2[1])-1;
-            int year =  Integer.parseInt(splits[0]);
-            System.out.println(month);
-            if(month > 12){
-                year = year + (month / 12);
-                month  = month % 12;
-                if(month==0){
-                    month = 1;
-                }
-            }
- */
