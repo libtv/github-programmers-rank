@@ -66,3 +66,27 @@ public String[] solution(String[] strings, int n) {
 
     }
  */
+
+/*
+import java.util.*;
+
+class Solution {
+    static int num;
+    public String[] solution(String[] strings, int n) {
+        num = n;
+        Arrays.sort(strings, new CM());
+        return strings;
+    }
+
+}
+
+class CM implements Comparator<String>{
+    @Override
+    public int compare(String s1, String s2) {
+        if(s1.charAt(Solution.num) > s2.charAt(Solution.num)) return 1;
+        else if(s1.charAt(Solution.num) == s2.charAt(Solution.num)) return s1.compareTo(s2);
+        else if(s1.charAt(Solution.num) < s2.charAt(Solution.num)) return -1;
+        else return 0;
+    }
+}
+ */
