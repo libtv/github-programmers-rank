@@ -1,8 +1,5 @@
 package org.example.programmers.level1;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-
 // https://school.programmers.co.kr/learn/courses/30/lessons/67256
 // 2020 카카오 인턴십 키패드 누르기
 public class PressTheKeypad {
