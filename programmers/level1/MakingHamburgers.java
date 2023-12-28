@@ -10,7 +10,7 @@ public class MakingHamburgers {
         int[] ingredient =  {1, 2, 3, 1, 1, 1};
         System.out.println(solution(ingredient));
     }
-    public static int solution(int[] ingredient) {
+    public static int solution(int[] ingredient) { // 100점
         int answer = 0;
 
         int [] array = {1, 2, 3, 1};
