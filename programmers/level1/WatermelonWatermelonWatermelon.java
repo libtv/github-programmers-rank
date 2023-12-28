@@ -17,7 +17,6 @@ public class WatermelonWatermelonWatermelon {
                 break;
             }
         }
-
         return sb.toString();
     }
 }
