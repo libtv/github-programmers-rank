@@ -7,7 +7,6 @@ import java.util.ArrayList;
 public class MakingDecimals {
     public static void main(String[] args) {
 
-
     }
     public int solution(int[] nums) { // 조합의수
         int cnt = 0;
