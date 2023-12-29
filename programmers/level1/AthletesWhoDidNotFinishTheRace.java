@@ -49,7 +49,7 @@ public class AthletesWhoDidNotFinishTheRace {
                 map.put(target, map.get(target) + 1);
             }
             set.add(target);
-        }
+         }
 
         HashMap<String, Integer> map2 = new HashMap();
          for(String target : completion){
