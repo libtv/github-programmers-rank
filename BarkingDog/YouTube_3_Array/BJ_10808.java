@@ -1,7 +1,8 @@
-package org.example.BarkingDog.YouTube_3;
+package org.example.BarkingDog.YouTube_3_Array;
 
 // https://www.acmicpc.net/problem/10808
 // 알파벳 개수
+// 브론즈 4
 
 import java.util.*;
 
