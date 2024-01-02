@@ -14,7 +14,7 @@ public class BJ1406 {
         String str = br.readLine();
         int n = Integer.parseInt(br.readLine());
 
-        ArrayList<Character> list = new ArrayList<>();
+        List<Character> list = new LinkedList<>();
         for (int i = 0; i < str.length(); i++) {
             list.add(str.charAt(i));
         }
@@ -28,7 +28,6 @@ public class BJ1406 {
             if(temp.equals("L")){
                 if(iterator.hasPrevious()){
                     iterator.previous();
-                    System.out.println("sex");
                 }
             }
             else if(temp.equals("D")){
