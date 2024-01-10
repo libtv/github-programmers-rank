@@ -23,54 +23,50 @@ public class BJ1021 {
         for (int i = 0; i < N; i++) {
             list.add(sc.nextInt());
         }
-        Deque<Integer> q = new LinkedList<>();
+        LinkedList<Integer> q = new LinkedList<>();
         for (int i = 1; i <= size; i++) {
             q.offer(i);
         }
-
-        int sum = 0;
-        for (int i = 0; i < list.size(); i++) { //  3 4 5 6 7 8 9 10 1
+        int cnt = 0;
+        for (int i = 0; i < list.size(); i++) {
             int target = list.get(i);
-            int big = q.size();
-            int cnt = 0;
-            int cnt2= 0;
-            Deque<Integer> q2 = new LinkedList<>(q);
-            while(q.size()==big){
+            int a = q.size();
+            int idx = q.indexOf(target);
+            boolean flag = false;
+            if(idx <= a/2){
+                flag = true;
+            }
+            else if(idx > a/2){
+                flag = false;
+            }
+            while(a==q.size()){
                 if(q.peek()==target){
                     q.poll();
                     break;
                 }
-                int temp = q.poll();
-                q.offerLast(temp);
-                cnt++;
-            }
-            while(q2.size()==big){
-                if(q2.peek()==target){
-                    q2.poll();
-                    break;
+                if(flag){
+                    int temp = q.pollFirst();
+                    q.offerLast(temp);
+                    cnt++;
                 }
-                int temp = q2.pollLast();
-                q2.offerFirst(temp);
-                cnt2++;
-            }
-            if(cnt > cnt2){
-                sum = sum + cnt2;
-                q = q2;
-            }
-            else{
-                sum = sum + cnt;
+                else if(!flag){
+                    int temp = q.pollLast();
+                    q.offerFirst(temp);
+                    cnt++;
+                }
             }
         }
-        System.out.println(sum);
+        System.out.println(cnt);
     }
 }
-// 1 2 3 4 5 6 7 8 9 10
-// 2 3 4 5 6 7 8 9 10 1 (1) -> 3 4 5 6 7 8 9 10 1
-// 1 3 4 5 6 7 8 9 10 (2)
-// 10 1 3 4 5 6 7 8 9 (3)
-// 9 10 1 3 4 5 6 7 8 (4) ->  10 1 3 4 5 6 7 8
-// 8 10 1 3 4 5 6 7 (5)
-// 7 8 10 1 3 4 5 6 (6)
-// 6 7 8 10 1 3 4 5 (7)
-// 5 6 7 8 10 1 3 4 (8)
+/*
+[2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+10 2 3 4 5 6 7 8 9
+9 10 2 3 4 5 6 7 8
+8 9 10 2 3 4 5 6 7
+7 8 9 10 2 3 4 5 6
+6 7 8 9 10 2 3 4 5
+
+ */
 
