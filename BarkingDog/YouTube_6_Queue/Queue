@@ -11,3 +11,40 @@
 
 추가되는 쪽 rear 뒤쪽
 제거되는 쪽 front 앞쪽
+
+Java에서 Queue는 맨 앞을 의미하는 peek()가 있지만 맨 뒤를 의미하는 매서드는 없다.
+하지만 peekLast()와 peek() peekFirst()를 구현하고 있는 인터페이스들이 있다.
+
+        * 방법 1
+        * LinkedList는 Deque(Queue를 상속받고 있음)도 구현하고 있기 때문에
+        * LinkedList로 선언해주어 사용 할 수 있다.
+
+        LinkedList<Integer> q = new LinkedList<>();
+        q.offer();	// push
+        q.pop();	// pop
+        q.size();	// size
+        q.isEmpty();	// empty
+        q.peek();	// front
+        q.peekLast();	// back
+
+        * 방법 2
+        * Deque 인터페이스로 선언한 뒤
+        * LinkedList나 ArrayDeque로 생성하여 이용 할 수 있음
+
+        Deque<Integer> q = new LinkedList<>();
+        Deque<Integer> q = new ArrayDeque<>();
+
+        // 메소드는 동일함
+        q.offer();	// push
+        q.pop();	// pop
+        q.size();	// size
+        q.isEmpty();	// empty
+        q.peek();	// front
+        q.peekLast();	// back
+
+Collection-> List-> ArrayList
+                 -> LinkedList (링크드 리스트는 Deque 인터페이스를 상속받는다.)
+
+          -> Set
+          -> Queue-> PriorityQueue
+                  -> ArrayDeque
