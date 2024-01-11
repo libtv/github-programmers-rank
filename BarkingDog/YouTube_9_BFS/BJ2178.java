@@ -53,6 +53,7 @@ public class BJ2178 {
                 if( 0 <= StartX && 0 <= StartY && StartX < a && StartY < b ){
                     if(StartX == a-1 && StartY == b-1){
                         answers.add(length+1);
+                        q.clear();
                         break;
                     }
                     else if(distance[StartX][StartY] == -1 && map[StartX][StartY] ==1){
@@ -67,6 +68,6 @@ public class BJ2178 {
                 StartY -= y[i];
             }
         }
-        System.out.println(Collections.min(answers));
+        System.out.println(answers.get(0));
     }
 }
