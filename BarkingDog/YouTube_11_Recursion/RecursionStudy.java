@@ -17,5 +17,8 @@ public class RecursionStudy {
         // (a5 * a5 * a1) % 12 = ((a5 % 12) * (a5 % 12) * (a1 % 12)) % 12
         // (a11) % 12 = ((a5 % 12) * (a5 % 12) * (a1 % 12)) % 12
 
+        // (a10) % 12 = ((a5 % 12) * (a5 % 12)) % 12
+        System.out.println(Math.pow(10, 10) % 12);
+        System.out.println(((Math.pow(10 , 5) % 12) * ((Math.pow(10 ,5) % 12)) % 12 ));
     }
 }
