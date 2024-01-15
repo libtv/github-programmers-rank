@@ -16,7 +16,6 @@ public class BJ1629 {
         C = sc.nextLong();
         System.out.println(find(A, B));
 
-
     }
 
     public static long find(long A, long B){ // 10 , 11 , 12
@@ -27,12 +26,12 @@ public class BJ1629 {
             return A % C;
         }
         long num = find(A, B/2);
+        long result = (num * num) % C;
 
-        if(B%2 == 1){
-            return num * num % C * A % C; // 이건 통과  (num * num * A) % C 는 왜?
+        if(B % 2 == 1){
+            result = (result * (A % C)) % C;
         }
-        // B%2 == 0
-        return (num * num) % C;
+        return result;
 
     }
 }
@@ -41,3 +40,6 @@ public class BJ1629 {
 (A * B) % p = ((A % p) * (B % p)) % p  == > (a5 * a5) % c  == ((a5 % c) * (a5 %c)) % c
 (A - B) % p = ((A % p) - (B % p) + p) % p
  */
+
+// 7^8 mod 13 = (7^4 * 7^4) mod 13 = (7^4 mod 13 * 7^4 mod 13) mod 13
+// 7^9 mod 13 = (7^4 * 7^4 * 7^1) mod 13 = (7^4 mod 13 * 7^4 mod 13 * 7^1 mod 13) * 13?
