@@ -37,7 +37,6 @@ public class BJ15650 {
         arr[cnt] = n;
         func(cnt + 1, n + 1);
         func(cnt , n + 1);
-
     }
 }
 /*
