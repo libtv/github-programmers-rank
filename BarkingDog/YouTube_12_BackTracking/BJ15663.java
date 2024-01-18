@@ -21,7 +21,7 @@ public class BJ15663 {
         M = Integer.parseInt(split[1]);
         list = new ArrayList<>();
         arr = new int[M];
-        visited2 = new int[100];
+        visited2 = new int[10001];
         String[] split2 = br.readLine().split(" ");
 
         for (int i = 0; i < N ; i++) {
