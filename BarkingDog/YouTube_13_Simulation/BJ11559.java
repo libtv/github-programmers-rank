@@ -48,7 +48,6 @@ public class BJ11559 {
         max = 0;
         // System.out.println(Arrays.deepToString(map));
         while (true){
-
             if(!bfs()){
                 break;
             }
