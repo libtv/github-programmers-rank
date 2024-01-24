@@ -23,6 +23,9 @@ public class BJ11652_Map_Entry {
 
         }
         */
+        // Iterator<Map.Entry<Long, Integer>> it = map.entrySet().iterator();
+
+
         int Max = 0;
         long MaxNum = 0;
         for (Map.Entry<Long, Integer> entry : map.entrySet()) {
