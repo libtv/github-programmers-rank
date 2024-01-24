@@ -110,6 +110,16 @@ public class Map_Entry_Study {
         System.out.println(map);
         System.out.println(list1);
 
+        ArrayList<Integer> list2 = new ArrayList<>();
+        list2.add(100);
+        list2.add(101);
 
+        ListIterator<Integer> listIterator2 = list2.listIterator();
+        while (listIterator2.hasNext()){
+            if(listIterator2.next() == 100){
+                listIterator2.set(200);
+            }
+        }
+        System.out.println(list2);
     }
 }
