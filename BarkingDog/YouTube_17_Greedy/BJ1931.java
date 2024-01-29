@@ -28,7 +28,6 @@ public class BJ1931 {
         }
          */
 
-
         int cnt = 0;
         int check = 0;
         int size = list.size();
