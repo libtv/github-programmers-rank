@@ -21,7 +21,7 @@ public class BJ12865 {
             values[i] = b;
         }
         int [][] DP = new int[N+1][K+1];
-        for (int i = 1; i <= N; i++) {
+        for (int i = 1; i <= N; i++) {    // weights[1] = 6 values[1] = 13
             for (int j = 1; j <= K; j++) {
                 if (weights[i] <= j) {
                     DP[i][j] = Math.max(DP[i-1][j], DP[i-1][j-weights[i]] + values[i]);
