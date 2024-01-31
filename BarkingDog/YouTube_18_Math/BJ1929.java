@@ -44,6 +44,4 @@ public class BJ1929 {
 2. M이상 N이상의 값들을 배열에서 true인지 확인한다.
 3. true 값들을 StringBuilder 객체에 append
 4. 출력
-
-
  */
