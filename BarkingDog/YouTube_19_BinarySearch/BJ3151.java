@@ -6,6 +6,9 @@ import java.io.InputStreamReader;
 import java.util.*;
 
 // 합이 0 골드4
+/*
+이항계수 개념 + 이분탐색 개념
+ */
 public class BJ3151 {
     static int [] arr;
     public static void main(String[] args) throws IOException{
