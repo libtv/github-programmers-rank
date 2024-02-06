@@ -52,6 +52,7 @@ public class BJ13144 {
             }
         }
         System.out.println(sum);
+        // commit
     }
 }
 /*
