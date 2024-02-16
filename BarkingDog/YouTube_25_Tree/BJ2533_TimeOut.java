@@ -18,13 +18,10 @@ public class BJ2533_TimeOut {
         for (int i = 0; i <= n; i++) {
             graph[i] = new ArrayList<>();
         }
-        Set<Integer> targets = new HashSet<>();
         for (int i = 1; i <= n - 1 ; i++) {
             StringTokenizer st = new StringTokenizer(br.readLine());
             int a = Integer.parseInt(st.nextToken());
             int b = Integer.parseInt(st.nextToken());
-            targets.add(a);
-            targets.add(b);
             graph[a].add(b);
             graph[b].add(a);
         }
