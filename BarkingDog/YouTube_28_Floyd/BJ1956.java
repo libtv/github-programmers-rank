@@ -51,6 +51,5 @@ public class BJ1956 {
         else{
             System.out.println(-1);
         }
-
     }
 }
