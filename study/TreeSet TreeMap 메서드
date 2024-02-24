@@ -1,0 +1,41 @@
+ceiling 메서드 (TreeSet 클래스에 적용)
+설명: 주어진 요소와 같거나 큰 가장 가까운 요소를 찾습니다.
+사용법: E ceiling(E e)
+매개변수: e - 비교할 요소
+반환값: 주어진 요소 e와 같거나 큰 요소, 없으면 null을 반환합니다.
+예외:
+ClassCastException - 주어진 객체가 집합의 요소 유형과 호환되지 않는 경우 발생 [1]
+floor 메서드 (TreeSet 클래스에 적용)
+설명: 주어진 요소와 같거나 작은 가장 가까운 요소를 찾습니다.
+사용법: E floor(E e)
+매개변수: e - 비교할 요소
+반환값: 주어진 요소 e와 같거나 작은 요소, 없으면 null을 반환합니다.
+예외:
+ClassCastException - 주어진 객체가 집합의 요소 유형과 호환되지 않는 경우 발생
+
+TreeSet 메서드
+add(E element): 지정된 요소를 집합에 추가합니다.
+remove(Object o): 지정된 요소를 집합에서 제거합니다.
+contains(Object o): 집합이 지정된 요소를 포함하는지 여부를 확인합니다.
+size(): 집합의 요소 수를 반환합니다.
+iterator(): 집합의 요소에 대한 반복자를 반환합니다.
+clear(): 집합의 모든 요소를 제거합니다.
+first(): 집합의 첫 번째(가장 낮은) 요소를 반환합니다.
+last(): 집합의 마지막(가장 높은) 요소를 반환합니다.
+higher(E e): 지정된 요소보다 큰 가장 가까운 요소를 반환합니다.
+lower(E e): 지정된 요소보다 작은 가장 가까운 요소를 반환합니다.
+subSet(E fromElement, E toElement): 지정된 범위의 부분 집합을 반환합니다. [1]
+TreeMap 메서드
+put(K key, V value): 지정된 키에 값을 매핑합니다.
+get(Object key): 지정된 키에 매핑된 값을 반환합니다.
+remove(Object key): 지정된 키의 매핑을 제거합니다.
+containsKey(Object key): 맵이 지정된 키를 포함하는지 확인합니다.
+containsValue(Object value): 맵이 하나 이상의 키에 지정된 값을 매핑하는지 확인합니다.
+keySet(): 맵의 키 집합을 반환합니다.
+values(): 맵의 값 컬렉션을 반환합니다.
+entrySet(): 맵의 매핑된 항목의 집합을 반환합니다.
+firstKey(): 맵의 가장 낮은 키를 반환합니다.
+lastKey(): 맵의 가장 높은 키를 반환합니다.
+higherKey(K key): 지정된 키보다 큰 가장 가까운 키를 반환합니다.
+lowerKey(K key): 지정된 키보다 작은 가장 가까운 키를 반환합니다.
+subMap(K fromKey, K toKey): 지정된 키 범위의 부분 맵을 반환합니다.
