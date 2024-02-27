@@ -1,13 +1,8 @@
 package org.example.boj.BarkingDog_Collection.Deque;
 
 // 최솟값 찾기 플래티넘 5
-
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.util.PriorityQueue;
-import java.util.StringTokenizer;
-
+import java.io.*;
+import java.util.*;
 public class BOJ11003 {
     static class node{
         long value; int idx;
