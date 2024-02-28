@@ -1,6 +1,6 @@
 package org.example.programmers.level2;
 
-public class tiling2N {
+public class Tiling2N {
     public int solution(int n) {
         if(n == 1) return 1;
         if(n == 2) return 2;
