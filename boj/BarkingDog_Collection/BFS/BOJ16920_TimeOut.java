@@ -53,7 +53,6 @@ public class BOJ16920_TimeOut {
             for (int i = 0; i < p ; i++) {
                 Deque<int []> temp = q[i];
                 boolean[][] visited2 = new boolean[n][m];
-                if(limit[i+1] == 0) continue;               // 확장 불가
                 ArrayList<int []> list = new ArrayList<>();
                 while (!temp.isEmpty()){
                     int [] check = temp.pollFirst();
@@ -63,8 +62,6 @@ public class BOJ16920_TimeOut {
                     }
                     if(map[check[0]][check[1]]!= 0) continue; // 이미 확장
                     visited2[check[0]][check[1]] = true;
-
-
                     boolean can = false;
                     boolean [][] visited3 = new boolean[n][m];
                     Queue<int[]> test = new LinkedList<>();
@@ -120,5 +117,4 @@ public class BOJ16920_TimeOut {
 }
 /*
 거리는 충분한데 다음 진행할곳이 없다면 이 친구는 평생 도달 x
-
  */
