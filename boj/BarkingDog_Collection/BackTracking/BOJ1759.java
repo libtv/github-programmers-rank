@@ -41,5 +41,4 @@ public class BOJ1759 {
             BackTracking(depth + 1, i + 1, set1.contains(answer[depth])? cnt1 + 1 : cnt1, set2.contains(answer[depth])? cnt2 + 1 : cnt2 );
         }
     }
-
 }
