@@ -1,4 +1,4 @@
-package org.example.BarkingDog.YouTube_4_Linked_List;
+package BarkingDog.YouTube_4_Linked_List;
 
 
 // https://www.acmicpc.net/problem/1406

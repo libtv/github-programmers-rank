@@ -1,4 +1,4 @@
-package org.example.BarkingDog.YouTube_11_Recursion;
+package BarkingDog.YouTube_11_Recursion;
 import java.util.Scanner;
 
 // https://www.acmicpc.net/problem/1074

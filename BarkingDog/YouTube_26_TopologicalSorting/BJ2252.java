@@ -1,4 +1,4 @@
-package org.example.BarkingDog.YouTube_26_TopologicalSorting;
+package BarkingDog.YouTube_26_TopologicalSorting;
 
 import java.io.*;
 import java.util.*;

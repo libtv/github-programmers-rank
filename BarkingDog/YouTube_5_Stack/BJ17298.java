@@ -1,4 +1,4 @@
-package org.example.BarkingDog.YouTube_5_Stack;
+package BarkingDog.YouTube_5_Stack;
 
 // https://www.acmicpc.net/problem/17298
 // 오큰수 골드 4

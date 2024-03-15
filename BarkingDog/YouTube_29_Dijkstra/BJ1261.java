@@ -1,4 +1,4 @@
-package org.example.BarkingDog.YouTube_29_Dijkstra;
+package BarkingDog.YouTube_29_Dijkstra;
 
 import java.util.*; import java.io.*;
 // 알고스팟 골드4

@@ -1,4 +1,4 @@
-package org.example.programmers.level2;
+package programmers.level2;
 
 // 프로그래머스 level2 광물 캐기
 import java.util.*;

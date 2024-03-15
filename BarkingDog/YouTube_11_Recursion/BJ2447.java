@@ -1,4 +1,4 @@
-package org.example.BarkingDog.YouTube_11_Recursion;
+package BarkingDog.YouTube_11_Recursion;
 
 // https://www.acmicpc.net/problem/2447
 // 별 찍기 - 10 골드5

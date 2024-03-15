@@ -1,4 +1,4 @@
-package org.example.BarkingDog.YouTube_22_BST;
+package BarkingDog.YouTube_22_BST;
 
 import java.io.BufferedReader;
 import java.io.IOException;

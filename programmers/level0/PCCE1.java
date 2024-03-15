@@ -1,4 +1,4 @@
-package org.example.programmers.level0;
+package programmers.level0;
 
 import java.util.Scanner;
 public class PCCE1 { // 프로그래머스 level0 총 232 문제 -> 백준 브론즈는 pass 이걸로

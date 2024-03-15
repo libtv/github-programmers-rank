@@ -1,4 +1,4 @@
-package org.example.BarkingDog.YouTube_25_Tree.Study;
+package BarkingDog.YouTube_25_Tree.Study;
 
 // 중위 순회 구현하기
 public class Inorder_Traversal {

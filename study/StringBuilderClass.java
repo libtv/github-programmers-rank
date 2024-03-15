@@ -1,4 +1,4 @@
-package org.example.study;
+package study;
 
 // https://school.programmers.co.kr/learn/courses/30/lessons/181950
 

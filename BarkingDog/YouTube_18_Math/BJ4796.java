@@ -1,4 +1,4 @@
-package org.example.BarkingDog.YouTube_18_Math;
+package BarkingDog.YouTube_18_Math;
 
 import java.io.*;
 import java.util.StringTokenizer;

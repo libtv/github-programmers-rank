@@ -1,4 +1,4 @@
-package org.example.BarkingDog.YouTube_8_StackUses;
+package BarkingDog.YouTube_8_StackUses;
 
 // https://www.acmicpc.net/problem/3986
 // 백준 좋은 단어 실버4

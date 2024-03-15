@@ -1,4 +1,4 @@
-package org.example.programmers.HighScoreKit.DFSBFS;
+package programmers.HighScoreKit.DFSBFS;
 
 // https://school.programmers.co.kr/learn/courses/30/lessons/43165
 // 프로그래머스 고득점 키트 level2

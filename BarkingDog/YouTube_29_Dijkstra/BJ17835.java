@@ -1,4 +1,4 @@
-package org.example.BarkingDog.YouTube_29_Dijkstra;
+package BarkingDog.YouTube_29_Dijkstra;
 
 import java.io.*; import java.util.*;
 // 면접보는 승범이네 골드2

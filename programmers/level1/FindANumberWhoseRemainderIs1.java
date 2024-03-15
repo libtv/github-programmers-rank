@@ -1,4 +1,4 @@
-package org.example.programmers.level1;
+package programmers.level1;
 // https://school.programmers.co.kr/learn/courses/30/lessons/87389
 // 나머지가 1이 되는 수 찾기
 public class FindANumberWhoseRemainderIs1 {

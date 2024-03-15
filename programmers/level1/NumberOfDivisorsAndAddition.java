@@ -1,4 +1,4 @@
-package org.example.programmers.level1;
+package programmers.level1;
 
 public class NumberOfDivisorsAndAddition {
     public static void main(String[] args) {

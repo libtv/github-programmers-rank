@@ -1,4 +1,4 @@
-package org.example.BarkingDog.YouTube_29_Dijkstra;
+package BarkingDog.YouTube_29_Dijkstra;
 
 import java.util.*; import java.io.*;
 // 최소비용 구하기 골드5

@@ -1,4 +1,4 @@
-package org.example.BarkingDog.YouTube_9_BFS;
+package BarkingDog.YouTube_9_BFS;
 
 // https://www.acmicpc.net/problem/7576
 // 토마토 골드5

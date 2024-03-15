@@ -1,4 +1,4 @@
-package org.example.programmers.level2;
+package programmers.level2;
 
 // https://school.programmers.co.kr/learn/courses/30/lessons/12953
 // 프로그래머스 Level2 N개의 최소공배수

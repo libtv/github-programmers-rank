@@ -1,4 +1,4 @@
-package org.example.BarkingDog.YouTube_29_Dijkstra;
+package BarkingDog.YouTube_29_Dijkstra;
 
 import java.io.*; import java.util.*;
 // 골목 대장 호석 - 효율성 2

@@ -1,4 +1,4 @@
-package org.example.BarkingDog.YouTube_9_BFS;
+package BarkingDog.YouTube_9_BFS;
 
 // https://www.acmicpc.net/problem/12851
 // 숨바꼭질 2 골드4

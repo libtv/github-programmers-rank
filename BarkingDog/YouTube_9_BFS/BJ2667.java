@@ -1,4 +1,4 @@
-package org.example.BarkingDog.YouTube_9_BFS;
+package BarkingDog.YouTube_9_BFS;
 // https://www.acmicpc.net/problem/2667
 // 2667번 단지번호붙이기 실버1
 

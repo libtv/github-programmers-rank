@@ -1,4 +1,4 @@
-package org.example.programmers.level0;
+package programmers.level0;
 
 // https://school.programmers.co.kr/learn/courses/30/lessons/181915
 // 글자 이어 붙여 문자열 만들기

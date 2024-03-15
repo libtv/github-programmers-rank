@@ -1,4 +1,4 @@
-package org.example.BarkingDog.YouTube_8_StackUses;
+package BarkingDog.YouTube_8_StackUses;
 
 // https://www.acmicpc.net/problem/10799
 // 쇠막대기 실버2 다시 풀기

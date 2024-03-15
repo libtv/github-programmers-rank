@@ -1,4 +1,4 @@
-package org.example.programmers.level2;
+package programmers.level2;
 
 // https://school.programmers.co.kr/learn/courses/30/lessons/12980
 // Summer/Winter Coding(~2018) 점프와 순간 이동

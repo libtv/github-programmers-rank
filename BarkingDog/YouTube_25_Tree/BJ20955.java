@@ -1,4 +1,4 @@
-package org.example.BarkingDog.YouTube_25_Tree;
+package BarkingDog.YouTube_25_Tree;
 
 import java.io.BufferedReader;
 import java.io.IOException;

@@ -1,4 +1,4 @@
-package org.example.BarkingDog.YouTube_5_Stack;
+package BarkingDog.YouTube_5_Stack;
 
 // https://www.acmicpc.net/problem/2493
 // 2493번 탑 골드 5

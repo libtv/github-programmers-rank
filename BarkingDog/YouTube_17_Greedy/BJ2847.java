@@ -1,4 +1,4 @@
-package org.example.BarkingDog.YouTube_17_Greedy;
+package BarkingDog.YouTube_17_Greedy;
 
 import java.io.IOException;
 import java.util.Scanner;

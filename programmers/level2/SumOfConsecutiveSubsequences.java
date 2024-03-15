@@ -1,4 +1,4 @@
-package org.example.programmers.level2;
+package programmers.level2;
 
 // https://school.programmers.co.kr/learn/courses/30/lessons/178870
 // 프로그래머스 LEVEL 2 연속된 부분 수열의 합

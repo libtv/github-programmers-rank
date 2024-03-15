@@ -1,4 +1,4 @@
-package org.example.BarkingDog.YouTube_11_Recursion;
+package BarkingDog.YouTube_11_Recursion;
 import java.io.BufferedWriter;
 import java.io.IOException;
 import java.io.OutputStreamWriter;

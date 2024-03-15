@@ -1,4 +1,4 @@
-package org.example.BarkingDog.YouTube_25_Tree.Study;
+package BarkingDog.YouTube_25_Tree.Study;
 
 import java.util.ArrayList;
 import java.util.Stack;

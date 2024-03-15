@@ -1,4 +1,4 @@
-package org.example.BarkingDog.YouTube_9_BFS;
+package BarkingDog.YouTube_9_BFS;
 
 // https://www.acmicpc.net/problem/5014
 // 스타트링크 실버1

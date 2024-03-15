@@ -1,4 +1,4 @@
-package org.example.BarkingDog.YouTube_7_Deque;
+package BarkingDog.YouTube_7_Deque;
 
 // https://www.acmicpc.net/problem/5430
 // 백준 AC 골드5

@@ -1,4 +1,4 @@
-package org.example.BarkingDog.YouTube_9_BFS;
+package BarkingDog.YouTube_9_BFS;
 
 // https://www.acmicpc.net/problem/7562
 // 나이트의 이동 실버1

@@ -1,4 +1,4 @@
-package org.example.BarkingDog.YouTube_12_BackTracking;
+package BarkingDog.YouTube_12_BackTracking;
 
 import java.io.*;
 // https://www.acmicpc.net/problem/16987

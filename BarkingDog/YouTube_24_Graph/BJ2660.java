@@ -1,4 +1,4 @@
-package org.example.BarkingDog.YouTube_24_Graph;
+package BarkingDog.YouTube_24_Graph;
 
 import java.io.*;
 import java.util.*;

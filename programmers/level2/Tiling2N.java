@@ -1,4 +1,4 @@
-package org.example.programmers.level2;
+package programmers.level2;
 
 public class Tiling2N {
     public int solution(int n) {

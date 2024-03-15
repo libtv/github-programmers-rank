@@ -1,4 +1,4 @@
-package org.example.programmers.level2;
+package programmers.level2;
 
 // https://school.programmers.co.kr/learn/courses/30/lessons/159993
 // 프로그래머스 level2 미로 탈출

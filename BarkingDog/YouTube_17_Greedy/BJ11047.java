@@ -1,4 +1,4 @@
-package org.example.BarkingDog.YouTube_17_Greedy;
+package BarkingDog.YouTube_17_Greedy;
 // 동전 0 실버4
 
 import java.io.*;

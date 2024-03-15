@@ -1,4 +1,4 @@
-package org.example.BarkingDog.YouTube_27_MST;
+package BarkingDog.YouTube_27_MST;
 
 import java.util.*;
 import java.io.*;

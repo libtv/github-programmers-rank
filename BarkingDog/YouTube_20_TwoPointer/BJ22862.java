@@ -1,4 +1,4 @@
-package org.example.BarkingDog.YouTube_20_TwoPointer;
+package BarkingDog.YouTube_20_TwoPointer;
 
 import java.io.BufferedReader;
 import java.io.IOException;

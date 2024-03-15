@@ -1,4 +1,4 @@
-package org.example.BarkingDog.YouTube_13_Simulation;
+package BarkingDog.YouTube_13_Simulation;
 
 // https://www.acmicpc.net/problem/14500
 // 테트로미노 골드4

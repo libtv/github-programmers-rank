@@ -1,4 +1,4 @@
-package org.example.BarkingDog.YouTube_6_Queue;
+package BarkingDog.YouTube_6_Queue;
 
 // https://www.acmicpc.net/problem/2164
 // 카드2 실버4

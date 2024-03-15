@@ -1,4 +1,4 @@
-package org.example.BarkingDog.YouTube_23_PriorityQueue;
+package BarkingDog.YouTube_23_PriorityQueue;
 
 import java.io.BufferedReader;
 import java.io.IOException;

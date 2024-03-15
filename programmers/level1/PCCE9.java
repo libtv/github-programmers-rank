@@ -1,4 +1,4 @@
-package org.example.programmers.level1;
+package programmers.level1;
 
 // [PCCE 기출문제] 9번 / 이웃한 칸
 public class PCCE9 {

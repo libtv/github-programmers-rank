@@ -1,4 +1,4 @@
-package org.example.study;
+package study;
 
 // Scanner BufferedReader 차이점 특징
 // https://velog.io/@langoustine/Scanner-VS-BufferedReader 참고해서 작성

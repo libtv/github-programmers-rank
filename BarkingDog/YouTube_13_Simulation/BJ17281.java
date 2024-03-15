@@ -1,4 +1,4 @@
-package org.example.BarkingDog.YouTube_13_Simulation;
+package BarkingDog.YouTube_13_Simulation;
 
 import java.io.BufferedReader;
 import java.io.IOException;

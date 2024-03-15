@@ -1,4 +1,4 @@
-package org.example.BarkingDog.YouTube_8_StackUses;
+package BarkingDog.YouTube_8_StackUses;
 
 import java.io.*;
 import java.util.Stack;

@@ -1,4 +1,4 @@
-package org.example.BarkingDog.YouTube_20_TwoPointer;
+package BarkingDog.YouTube_20_TwoPointer;
 
 import java.util.ArrayList;
 import java.util.Arrays;

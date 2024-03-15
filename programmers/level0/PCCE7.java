@@ -1,4 +1,4 @@
-package org.example.programmers.level0;
+package programmers.level0;
 
 public class PCCE7 {
     public static void main(String[] args) {

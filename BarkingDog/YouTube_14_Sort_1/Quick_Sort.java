@@ -1,4 +1,4 @@
-package org.example.BarkingDog.YouTube_14_Sort_1;
+package BarkingDog.YouTube_14_Sort_1;
 
 /*
 퀵 소트가 거의 모든 정렬 알고리즘보다 빨라서 각종 라이브러리의 정렬은 대부분 퀵 소트를 바탕으로 만들어져 있다.

@@ -1,4 +1,4 @@
-package org.example.programmers.level2;
+package programmers.level2;
 // https://school.programmers.co.kr/learn/courses/30/lessons/17683
 // 2018 KAKAO BLIND RECRUITMENT
 // [3차] 방금그곡

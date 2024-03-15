@@ -1,4 +1,4 @@
-package org.example.BarkingDog.YouTube_29_Dijkstra;
+package BarkingDog.YouTube_29_Dijkstra;
 
 import java.io.*; import java.util.*;
 // 특정한 최단 경로 골드4 다익스트라

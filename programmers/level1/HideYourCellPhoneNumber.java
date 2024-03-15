@@ -1,4 +1,4 @@
-package org.example.programmers.level1;
+package programmers.level1;
 
 // https://school.programmers.co.kr/learn/courses/30/lessons/12948
 // 핸드폰 번호 가리기

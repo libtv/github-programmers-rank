@@ -1,4 +1,4 @@
-package org.example.BarkingDog.YouTube_8_StackUses;
+package BarkingDog.YouTube_8_StackUses;
 
 // https://www.acmicpc.net/problem/4949
 // 백준 균형잡힌 세상 실버4

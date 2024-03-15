@@ -1,4 +1,4 @@
-package org.example.BarkingDog.YouTube_21_Hash;
+package BarkingDog.YouTube_21_Hash;
 
 import java.io.BufferedReader;
 import java.io.IOException;

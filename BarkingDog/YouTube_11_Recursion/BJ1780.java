@@ -1,4 +1,4 @@
-package org.example.BarkingDog.YouTube_11_Recursion;
+package BarkingDog.YouTube_11_Recursion;
 
 // https://www.acmicpc.net/problem/1780
 // 종이의 개수 실버2

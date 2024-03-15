@@ -1,4 +1,4 @@
-package org.example.BarkingDog.YouTube_7_Deque;
+package BarkingDog.YouTube_7_Deque;
 
 // https://www.acmicpc.net/problem/10866
 // 덱 실버4

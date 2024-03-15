@@ -1,4 +1,4 @@
-package org.example.BarkingDog.YouTube_5_Stack;
+package BarkingDog.YouTube_5_Stack;
 import java.io.*;
 import java.util.Stack;
 

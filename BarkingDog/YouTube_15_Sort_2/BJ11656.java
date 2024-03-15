@@ -1,4 +1,4 @@
-package org.example.BarkingDog.YouTube_15_Sort_2;
+package BarkingDog.YouTube_15_Sort_2;
 
 import java.io.BufferedReader;
 import java.io.IOException;

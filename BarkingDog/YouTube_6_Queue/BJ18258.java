@@ -1,4 +1,4 @@
-package org.example.BarkingDog.YouTube_6_Queue;
+package BarkingDog.YouTube_6_Queue;
 
 // https://www.acmicpc.net/problem/18258
 // 큐2 실버4

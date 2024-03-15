@@ -1,4 +1,4 @@
-package org.example.programmers.level2;
+package programmers.level2;
 
 // 프로그래머스 요격 시스템
 import java.util.*;

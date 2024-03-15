@@ -1,4 +1,4 @@
-package org.example.BarkingDog.YouTube_3_Array;
+package BarkingDog.YouTube_3_Array;
 
 import java.util.Arrays;
 import java.util.Scanner;

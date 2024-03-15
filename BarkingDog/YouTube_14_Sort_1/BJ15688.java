@@ -1,4 +1,4 @@
-package org.example.BarkingDog.YouTube_14_Sort_1;
+package BarkingDog.YouTube_14_Sort_1;
 
 import java.io.*;
 public class BJ15688 {

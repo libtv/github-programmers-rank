@@ -1,4 +1,4 @@
-package org.example.programmers.level0;
+package programmers.level0;
 
 // 대소문자 바꿔서 출력하기 https://school.programmers.co.kr/learn/courses/30/lessons/181949
 

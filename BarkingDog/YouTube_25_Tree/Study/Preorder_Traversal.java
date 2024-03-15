@@ -1,4 +1,4 @@
-package org.example.BarkingDog.YouTube_25_Tree.Study;
+package BarkingDog.YouTube_25_Tree.Study;
 
 // 전위 순회
 public class Preorder_Traversal {

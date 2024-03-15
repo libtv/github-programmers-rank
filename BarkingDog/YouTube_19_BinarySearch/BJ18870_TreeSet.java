@@ -1,4 +1,4 @@
-package org.example.BarkingDog.YouTube_19_BinarySearch;
+package BarkingDog.YouTube_19_BinarySearch;
 
 import java.io.*;
 import java.util.*;

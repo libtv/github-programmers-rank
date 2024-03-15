@@ -1,4 +1,4 @@
-package org.example.BarkingDog.YouTube_13_Simulation;
+package BarkingDog.YouTube_13_Simulation;
 
 import java.io.*;
 import java.util.Arrays;

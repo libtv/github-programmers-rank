@@ -1,4 +1,4 @@
-package org.example.programmers.level2;
+package programmers.level2;
 // https://school.programmers.co.kr/learn/courses/30/lessons/250136
 // [PCCP 기출문제] 2번 / 석유 시추
 import java.util.*;

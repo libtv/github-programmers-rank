@@ -1,4 +1,4 @@
-package org.example.programmers.level2;
+package programmers.level2;
 
 import java.util.Stack;
 

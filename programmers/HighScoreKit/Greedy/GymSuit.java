@@ -1,4 +1,4 @@
-package org.example.programmers.HighScoreKit.Greedy;
+package programmers.HighScoreKit.Greedy;
 
 import java.util.Arrays;
 

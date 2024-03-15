@@ -1,4 +1,4 @@
-package org.example.BarkingDog.YouTube_1;
+package BarkingDog.YouTube_1;
 
 // 시간 복잡도 공부
 

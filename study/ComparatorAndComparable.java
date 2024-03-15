@@ -1,4 +1,4 @@
-package org.example.study;
+package study;
 
 import java.util.Arrays;
 import java.util.Comparator;

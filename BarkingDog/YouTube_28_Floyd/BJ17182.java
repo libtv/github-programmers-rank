@@ -1,4 +1,4 @@
-package org.example.BarkingDog.YouTube_28_Floyd;
+package BarkingDog.YouTube_28_Floyd;
 
 import java.io.*;
 import java.util.*;

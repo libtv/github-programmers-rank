@@ -1,4 +1,4 @@
-package org.example.programmers.level2;
+package programmers.level2;
 
 // 프로그래머스 Level2 JadenCase 문자열 만들기
 import java.util.*;

@@ -1,4 +1,4 @@
-package org.example.BarkingDog.YouTube_3_Array;
+package BarkingDog.YouTube_3_Array;
 
 // https://www.acmicpc.net/problem/3273
 // 두 수의 합

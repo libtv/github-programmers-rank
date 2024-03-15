@@ -1,4 +1,4 @@
-package org.example.programmers.HighScoreKit.StackQueue;
+package programmers.HighScoreKit.StackQueue;
 
 import java.util.Stack;
 

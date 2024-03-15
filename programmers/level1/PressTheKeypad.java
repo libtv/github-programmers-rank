@@ -1,4 +1,4 @@
-package org.example.programmers.level1;
+package programmers.level1;
 
 // https://school.programmers.co.kr/learn/courses/30/lessons/67256
 // 2020 카카오 인턴십 키패드 누르기

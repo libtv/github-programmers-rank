@@ -1,4 +1,4 @@
-package org.example.programmers.level2;
+package programmers.level2;
 
 // https://school.programmers.co.kr/learn/courses/30/lessons/1829
 // 프로그래머스 level2 카카오프렌즈 컬러링북

@@ -1,4 +1,4 @@
-package org.example.programmers.level2;
+package programmers.level2;
 
 // 뒤에 있는 큰 수 찾기
 import java.util.*;
