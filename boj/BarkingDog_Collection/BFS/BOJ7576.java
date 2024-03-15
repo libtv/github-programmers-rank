@@ -1,4 +1,4 @@
-package org.example.boj.BarkingDog_Collection.BFS;
+package boj.BarkingDog_Collection.BFS;
 
 // 토마토 골드5
 import java.io.*;

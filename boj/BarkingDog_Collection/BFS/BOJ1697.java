@@ -1,4 +1,4 @@
-package org.example.boj.BarkingDog_Collection.BFS;
+package boj.BarkingDog_Collection.BFS;
 
 // 숨바꼭질 실버1
 import java.util.*;

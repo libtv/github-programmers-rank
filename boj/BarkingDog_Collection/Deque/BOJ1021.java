@@ -1,4 +1,4 @@
-package org.example.boj.BarkingDog_Collection.Deque;
+package boj.BarkingDog_Collection.Deque;
 
 import java.io.*;
 import java.util.*;

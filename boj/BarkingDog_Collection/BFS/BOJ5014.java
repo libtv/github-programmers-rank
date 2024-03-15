@@ -1,4 +1,4 @@
-package org.example.boj.BarkingDog_Collection.BFS;
+package boj.BarkingDog_Collection.BFS;
 
 // 스타트링크 실버1
 import java.io.*;

@@ -1,4 +1,4 @@
-package org.example.boj.BarkingDog_Collection.Array;
+package boj.BarkingDog_Collection.Array;
 
 // 개수 세기 브론즈5
 import java.io.*;

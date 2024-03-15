@@ -1,4 +1,4 @@
-package org.example.boj.BarkingDog_Collection.LinkedList;
+package boj.BarkingDog_Collection.LinkedList;
 
 // 키로거 실버2
 import java.util.*;

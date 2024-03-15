@@ -1,4 +1,4 @@
-package org.example.boj.BarkingDog_Collection.Array;
+package boj.BarkingDog_Collection.Array;
 
 // 숫자의 개수 브론즈2
 import java.io.*;

@@ -1,4 +1,4 @@
-package org.example.boj.BarkingDog_Collection.BFS;
+package boj.BarkingDog_Collection.BFS;
 
 // 미로탐색 실버1
 import java.io.*;

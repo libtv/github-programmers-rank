@@ -1,4 +1,4 @@
-package org.example.boj.BarkingDog_Collection.Recursion;
+package boj.BarkingDog_Collection.Recursion;
 
 // 쿼드트리 실버1
 import java.io.*;

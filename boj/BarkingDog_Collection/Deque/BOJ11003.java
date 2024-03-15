@@ -1,4 +1,4 @@
-package org.example.boj.BarkingDog_Collection.Deque;
+package boj.BarkingDog_Collection.Deque;
 
 // 최솟값 찾기 플래티넘 5
 import java.io.*;

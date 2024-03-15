@@ -1,4 +1,4 @@
-package org.example.boj.BarkingDog_Collection.Stack;
+package boj.BarkingDog_Collection.Stack;
 
 // 탑 골드5
 import java.util.*;

@@ -1,4 +1,4 @@
-package org.example.boj.BarkingDog_Collection.LinkedList;
+package boj.BarkingDog_Collection.LinkedList;
 
 // 에디터 실버2
 import java.io.*;

@@ -1,4 +1,4 @@
-package org.example.boj.BarkingDog_Collection.Stack;
+package boj.BarkingDog_Collection.Stack;
 
 // 오큰수 골드4
 import java.io.*;

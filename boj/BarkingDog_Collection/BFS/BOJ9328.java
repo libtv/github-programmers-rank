@@ -1,4 +1,4 @@
-package org.example.boj.BarkingDog_Collection.BFS;
+package boj.BarkingDog_Collection.BFS;
 
 // 열쇠 골드1
 import java.io.*;

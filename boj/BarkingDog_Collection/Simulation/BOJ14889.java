@@ -1,4 +1,4 @@
-package org.example.boj.BarkingDog_Collection.Simulation;
+package boj.BarkingDog_Collection.Simulation;
 
 // 스타트와 링크 실버1
 import java.io.*;

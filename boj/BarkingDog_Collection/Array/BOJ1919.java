@@ -1,4 +1,4 @@
-package org.example.boj.BarkingDog_Collection.Array;
+package boj.BarkingDog_Collection.Array;
 
 // 애너그램 만들기 브론즈2
 import java.io.*;

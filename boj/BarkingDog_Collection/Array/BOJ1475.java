@@ -1,4 +1,4 @@
-package org.example.boj.BarkingDog_Collection.Array;
+package boj.BarkingDog_Collection.Array;
 
 // 방 번호 실버5
 import java.io.*;

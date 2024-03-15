@@ -1,4 +1,4 @@
-package org.example.boj.BarkingDog_Collection.Recursion;
+package boj.BarkingDog_Collection.Recursion;
 
 // 종이의 개수 실버2
 import java.io.*;

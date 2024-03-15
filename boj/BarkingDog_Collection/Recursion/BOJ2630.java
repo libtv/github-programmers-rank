@@ -1,4 +1,4 @@
-package org.example.boj.BarkingDog_Collection.Recursion;
+package boj.BarkingDog_Collection.Recursion;
 
 // 색종이 만들기 실버2
 import java.io.*;

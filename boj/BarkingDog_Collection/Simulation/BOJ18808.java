@@ -1,4 +1,4 @@
-package org.example.boj.BarkingDog_Collection.Simulation;
+package boj.BarkingDog_Collection.Simulation;
 
 // 스티커 붙이기 골드3
 import java.io.*;

@@ -1,4 +1,4 @@
-package org.example.boj.BarkingDog_Collection.Simulation;
+package boj.BarkingDog_Collection.Simulation;
 
 // 치킨 배달 골드5
 import java.util.*;

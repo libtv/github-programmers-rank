@@ -1,4 +1,4 @@
-package org.example.boj.BarkingDog_Collection.Stack;
+package boj.BarkingDog_Collection.Stack;
 
 // 스택 수열 실버2
 import java.io.*;

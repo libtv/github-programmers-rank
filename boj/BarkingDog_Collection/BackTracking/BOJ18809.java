@@ -1,4 +1,4 @@
-package org.example.boj.BarkingDog_Collection.BackTracking;
+package boj.BarkingDog_Collection.BackTracking;
 
 // Gaaaaaaaarden 골드1
 import java.util.*;

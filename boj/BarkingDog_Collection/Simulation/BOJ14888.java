@@ -1,4 +1,4 @@
-package org.example.boj.BarkingDog_Collection.Simulation;
+package boj.BarkingDog_Collection.Simulation;
 
 // 연산자 끼워넣기 실버1
 import java.util.*;

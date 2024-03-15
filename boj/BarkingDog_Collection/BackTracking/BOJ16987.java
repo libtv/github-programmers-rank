@@ -1,4 +1,4 @@
-package org.example.boj.BarkingDog_Collection.BackTracking;
+package boj.BarkingDog_Collection.BackTracking;
 
 // 계란으로 계란치기 골드5
 import java.io.*;

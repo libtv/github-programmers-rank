@@ -1,4 +1,4 @@
-package org.example.boj.BarkingDog_Collection.Stack_Uses;
+package boj.BarkingDog_Collection.Stack_Uses;
 
 // 괄호의 값 실버5
 import java.util.*;

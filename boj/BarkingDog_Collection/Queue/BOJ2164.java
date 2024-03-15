@@ -1,4 +1,4 @@
-package org.example.boj.BarkingDog_Collection.Queue;
+package boj.BarkingDog_Collection.Queue;
 
 import java.util.*;
 import java.io.*;

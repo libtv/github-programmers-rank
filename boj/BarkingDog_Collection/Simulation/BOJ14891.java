@@ -1,4 +1,4 @@
-package org.example.boj.BarkingDog_Collection.Simulation;
+package boj.BarkingDog_Collection.Simulation;
 
 // 톱니바퀴 골드5
 import java.io.*;

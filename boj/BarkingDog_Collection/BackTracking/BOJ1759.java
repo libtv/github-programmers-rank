@@ -1,4 +1,4 @@
-package org.example.boj.BarkingDog_Collection.BackTracking;
+package boj.BarkingDog_Collection.BackTracking;
 
 // 암호 만들기 골드5
 import java.io.*;

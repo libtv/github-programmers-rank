@@ -1,4 +1,4 @@
-package org.example.boj.BarkingDog_Collection.Stack_Uses;
+package boj.BarkingDog_Collection.Stack_Uses;
 
 // 쇠막대기 실버2
 import java.util.*;

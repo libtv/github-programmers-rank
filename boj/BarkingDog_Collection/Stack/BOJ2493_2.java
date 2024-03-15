@@ -1,4 +1,4 @@
-package org.example.boj.BarkingDog_Collection.Stack;
+package boj.BarkingDog_Collection.Stack;
 
 import java.io.*;
 import java.util.*;

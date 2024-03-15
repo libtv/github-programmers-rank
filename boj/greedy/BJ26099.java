@@ -1,4 +1,4 @@
-package org.example.boj.greedy;
+package boj.greedy;
 
 import java.io.BufferedReader;
 import java.io.IOException;

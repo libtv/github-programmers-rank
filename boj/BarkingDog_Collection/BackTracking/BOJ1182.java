@@ -1,4 +1,4 @@
-package org.example.boj.BarkingDog_Collection.BackTracking;
+package boj.BarkingDog_Collection.BackTracking;
 
 // 부분수열의 합 실버2
 import java.io.*;

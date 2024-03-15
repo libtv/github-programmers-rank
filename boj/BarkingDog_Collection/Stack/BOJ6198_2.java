@@ -1,4 +1,4 @@
-package org.example.boj.BarkingDog_Collection.Stack;
+package boj.BarkingDog_Collection.Stack;
 import java.io.*;
 import java.util.*;
 // 옥상 정원 꾸미기 골드5

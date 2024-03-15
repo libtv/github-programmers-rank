@@ -1,4 +1,4 @@
-package org.example.boj.BarkingDog_Collection.LinkedList;
+package boj.BarkingDog_Collection.LinkedList;
 
 // 요세푸스 문제 실버4
 import java.util.*;

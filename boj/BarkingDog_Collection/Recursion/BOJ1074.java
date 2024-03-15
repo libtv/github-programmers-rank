@@ -1,4 +1,4 @@
-package org.example.boj.BarkingDog_Collection.Recursion;
+package boj.BarkingDog_Collection.Recursion;
 
 import java.io.*;
 import java.util.StringTokenizer;

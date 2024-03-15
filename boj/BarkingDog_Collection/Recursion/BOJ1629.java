@@ -1,4 +1,4 @@
-package org.example.boj.BarkingDog_Collection.Recursion;
+package boj.BarkingDog_Collection.Recursion;
 
 // 곱셈 실버1
 import java.io.*;

@@ -1,4 +1,4 @@
-package org.example.boj.BarkingDog_Collection.Stack_Uses;
+package boj.BarkingDog_Collection.Stack_Uses;
 
 // 균형잡힌 세상 실버4
 import java.io.*;

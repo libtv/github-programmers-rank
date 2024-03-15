@@ -1,4 +1,4 @@
-package org.example.boj.BarkingDog_Collection.Deque;
+package boj.BarkingDog_Collection.Deque;
 
 // AC 골드5
 import java.util.*;
