@@ -16,6 +16,7 @@ public class Merge_Sort {
         }
         int mid = (start + end) / 2;
         func(start, mid);
+        func(mid, end);
         func2(start, end);
     }
     public static void func2(int start, int end){
