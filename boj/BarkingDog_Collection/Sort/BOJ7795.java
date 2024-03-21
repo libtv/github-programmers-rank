@@ -36,10 +36,3 @@ public class BOJ7795 {
         System.out.println(sb);
     }
 }
-/*
-우선순위 큐에서 가장 큰 값들
-
-
-
-
- */
