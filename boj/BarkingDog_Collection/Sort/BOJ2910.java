@@ -1,4 +1,4 @@
-package boj.BarkingDog_Collection.Simulation;
+package boj.BarkingDog_Collection.Sort;
 
 // 빈도 정렬 실버3
 import java.util.*;

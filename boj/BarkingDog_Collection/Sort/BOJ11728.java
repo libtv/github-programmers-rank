@@ -1,4 +1,4 @@
-package boj.BarkingDog_Collection.Sort_1;
+package boj.BarkingDog_Collection.Sort;
 
 // 배열 합치기 실버5
 import java.util.*;

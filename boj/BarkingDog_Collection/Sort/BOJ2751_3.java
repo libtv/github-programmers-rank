@@ -1,4 +1,4 @@
-package boj.BarkingDog_Collection.Sort_1;
+package boj.BarkingDog_Collection.Sort;
 
 import java.io.*;
 import java.util.*;

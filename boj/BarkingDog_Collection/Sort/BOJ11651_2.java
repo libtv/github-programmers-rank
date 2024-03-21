@@ -1,4 +1,4 @@
-package boj.BarkingDog_Collection.Sort_1;
+package boj.BarkingDog_Collection.Sort;
 
 // 람다 스트림 연습용 ㅋㅋ
 import java.util.*;

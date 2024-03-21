@@ -1,9 +1,9 @@
-package boj.BarkingDog_Collection.Sort_1;
+package boj.BarkingDog_Collection.Sort;
 
-// 좌표 정렬하기2 실버5
+// 좌표 정렬하기 실버5
 import java.io.*;
 import java.util.*;
-public class BOJ11651 {
+public class BOJ11650 {
     public static void main(String[] args) throws IOException{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int n = Integer.parseInt(br.readLine());
@@ -16,9 +16,9 @@ public class BOJ11651 {
         Collections.sort(list, new Comparator<int[]>() {
             @Override
             public int compare(int[] o1, int[] o2) {
-                if(o1[1] > o2[1])return 1;
-                else if(o1[1] == o2[1]){
-                    return o1[0] - o2[0];
+                if(o1[0] > o2[0])return 1;
+                else if(o1[0] == o2[0]){
+                    return o1[1] - o2[1];
                 }
                 else return -1;
             }

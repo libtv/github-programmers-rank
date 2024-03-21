@@ -1,4 +1,4 @@
-package boj.BarkingDog_Collection.Simulation;
+package boj.BarkingDog_Collection.Sort;
 
 // 카드 실버4
 import java.util.*;

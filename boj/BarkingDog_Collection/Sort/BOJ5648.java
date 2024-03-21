@@ -1,4 +1,4 @@
-package boj.BarkingDog_Collection.Sort_2;
+package boj.BarkingDog_Collection.Sort;
 
 // 역원소 정렬 실버5
 import java.util.*;
