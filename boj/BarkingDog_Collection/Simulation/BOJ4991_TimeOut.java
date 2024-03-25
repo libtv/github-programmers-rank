@@ -3,7 +3,7 @@ package boj.BarkingDog_Collection.Simulation;
 // 로봇 청소기 골드1
 import java.io.*;
 import java.util.*;
-public class BOJ4991 {
+public class BOJ4991_TimeOut {
     static int n, m; static int [][] map; static int [][] memo; static int cur_x, cur_y;
     static int [][] answer; static boolean [] visited;
     static int [] arx = {-1,1,0,0};
