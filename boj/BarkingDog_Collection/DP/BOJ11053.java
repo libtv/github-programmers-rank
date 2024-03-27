@@ -3,7 +3,7 @@ package boj.BarkingDog_Collection.DP;
 // 가장 긴 증가하는 부분 수열 실버2
 import java.io.*;
 import java.util.*;
-public class BJ11053 {
+public class BOJ11053 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int n = Integer.parseInt(br.readLine());
