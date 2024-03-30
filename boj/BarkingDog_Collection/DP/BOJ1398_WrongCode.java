@@ -3,7 +3,7 @@ package boj.BarkingDog_Collection.DP;
 // 동전 문제 골드2
 import java.util.*;
 import java.io.*;
-public class BOJ1398 {
+public class BOJ1398_WrongCode {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int t = Integer.parseInt(br.readLine());
