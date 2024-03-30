@@ -3,7 +3,7 @@ package boj.BarkingDog_Collection.DP;
 // 동전 문제 골드2
 import java.util.*;
 import java.io.*;
-public class BOJ1398_WrongCode {
+public class BOJ1398_MyOwnSolution {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int t = Integer.parseInt(br.readLine());
@@ -28,7 +28,7 @@ public class BOJ1398_WrongCode {
             coin[i] = (long) Math.pow(10, i-8);
         }
         Arrays.sort(coin);
-        System.out.println(Arrays.toString(coin));
+        // System.out.println(Arrays.toString(coin));
         while (t-->0){
             long target = Long.parseLong(br.readLine());
             long count = 0;
@@ -38,7 +38,6 @@ public class BOJ1398_WrongCode {
                     cur--;
                 }
                 else{
-                    System.out.println(target);
                     // 25 .. xx 인지 1 .. x인지 구분하기
                     if(coin[cur] * 4 == coin[cur+1]){
                         String temp = Long.toString(target);
@@ -46,7 +45,6 @@ public class BOJ1398_WrongCode {
                         int case1 = 0;
                         int case2 = 0;
                         int tmp = Integer.parseInt(temp);
-                        System.out.println(tmp);
                         while (tmp != 0){
                             if(tmp >= 25){
                                 case1 += tmp / 25;
@@ -62,7 +60,6 @@ public class BOJ1398_WrongCode {
                             }
                         }
                         tmp = Integer.parseInt(temp);
-                        System.out.println(tmp);
                         while (tmp != 0){
                             if(tmp >= 10){
                                 case2 += tmp / 10;
@@ -74,18 +71,16 @@ public class BOJ1398_WrongCode {
                             }
                         }
                         if(case1 <= case2){
-                            long cnt = target / coin[cur];
-                            target -= (coin[cur] * cnt);
-                            count += cnt;
+                            target -= coin[cur];
+                            count++;
                         }
                         else{
                             cur--;
                         }
                     }
                     else{
-                        long cnt = target / coin[cur];
-                        target -= (coin[cur] * cnt);
-                        count += cnt;
+                        target -= coin[cur];
+                        count++;
                     }
                 }
             }
@@ -105,17 +100,16 @@ answer = 10 * 3 + 1 * 4
 output = 25 * 1 + 1 * 9
 
 
-25 * 3 = 75
-13 =
+59
+59 / 25 = 2 + 9
 
-1 + 3 + 3 + 7
+59 - 25 = 34
 
 
-2710 -> 2500
 
-210  ->
 
-2 + 1 + 1 = 4
+59 / 10 = 5 + 9
+
 
 
 
