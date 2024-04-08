@@ -21,48 +21,24 @@ public class BOJ2457 {
             if(o1[1]!=o2[1]) return -(o1[1] - o2[1]); // 제일 늦게 끝나는 순서로
             else return -(o1[0] - o2[0]);
         });
-        // System.out.println(Arrays.deepToString(flower));
-
-        int target = memory[12][1]; // 꽃이 지는 날이 최소 12월 1일 -> 335
-        int [] visited = new int[n];
-        int cnt = 0;
-        boolean flag = false;
+        int target = memory[12][1];
         int count = 0;
-        while (cnt <= n - 1 && !flag){
-            int min = 0;
-            for (int i = cnt; i <= n - 1; i++) {
-                if(visited[i] >= 2) continue;
-                visited[i]++;
-                int start = flower[i][0];
-                int end   = flower[i][1];
-                if(end >= target){
-                    if(min == 0){
-                        min = start;
-                    }
-                    else{
-                        if(min > start){
-                            min = start;
-                        }
-                    }
-                }
-                else{
-                    cnt = i - 1;
-                    break;
-                }
+        int i = 0;
+        while (i < n){
+            int min = Integer.MAX_VALUE;
+            while (i < n && flower[i][1] >= target){
+                min = Math.min(min, flower[i][0]);
+                i++;
             }
-            if(min == 0) break;
-            else{
-                count++;
-                if(min <= memory[3][1]){ // -> 60
-                    flag = true;
-                }
-                else{
-                    target = min;
-                }
+            if(min == Integer.MAX_VALUE) break;
+            count++;
+            if(min <= memory[3][1]){
+                System.out.println(count);
+                return;
             }
+            target = min;
         }
-        if(flag) System.out.println(count);
-        else System.out.println(0);
+        System.out.println(0);
     }
     static void calculate(){
         int count = 1;
