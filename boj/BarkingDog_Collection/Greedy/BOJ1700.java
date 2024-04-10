@@ -19,7 +19,6 @@ public class BOJ1700 {
             use[input]++;
         }
         boolean [] visited = new boolean[num+1];
-        int cnt   = 0;
         int count = 0;
         ArrayList<int []> list = new ArrayList<>();
         for (int i = 0; i < num; i++) {
@@ -94,7 +93,4 @@ public class BOJ1700 {
 헤어드라이기           2
 
 --> I need more info 만약 남은 횟수가 같다고 하면 어떤걸 멀티탭에서 빼야할까?
-
-
-
  */
