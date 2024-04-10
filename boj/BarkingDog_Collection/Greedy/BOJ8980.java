@@ -77,10 +77,6 @@ DP[4] DP[3] DP[2] 60 - 40 = 20
 
 DP[1] = 30 DP[2] = 20 DP[3] = 60 DP[4] = 20
 
-
-
-
-
  for (int i = 1; i <= n; i++) {
             // 해당 마을에서 받는 택배
             while (!delivery.isEmpty() && delivery.peek()[0] == i){
