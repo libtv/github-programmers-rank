@@ -25,7 +25,7 @@ public class Random_Defence {
 /*       49문제 --> 하루에 4시간 투자 시간 체크하기!
 11652    PASS 20분
 1799     PASS 58분
-11660
+11660    PASS 9분
 2447
 2448
 7570
