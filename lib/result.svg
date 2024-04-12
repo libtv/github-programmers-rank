@@ -72,14 +72,14 @@
             <text text-anchor="middle" x="80" y="85" class="desc-2" stroke="#none" stroke-width="1" >레벨</text>
             
             <text text-anchor="middle" x="340" y="45" class="title" style="fill:#0078ff;" stroke="#none" stroke-width="1" >현재 점수</text>
-            <text text-anchor="middle" x="360" y="85" class="desc" stroke="#none" stroke-width="1" >1,466</text>
+            <text text-anchor="middle" x="360" y="85" class="desc" stroke="#none" stroke-width="1" >1,474</text>
             
             <text text-anchor="middle" x="100" y="150" class="title" style="fill:#0078ff;" stroke="#none" stroke-width="1" >해결한 코딩 테스트</text>
-            <text text-anchor="middle" x="65" y="190" class="desc" stroke="#none" stroke-width="1" >127</text>
+            <text text-anchor="middle" x="65" y="190" class="desc" stroke="#none" stroke-width="1" >134</text>
             <text text-anchor="middle" x="120" y="190" class="desc-2" stroke="#none" stroke-width="1" >문제</text>
             
             <text text-anchor="middle" x="340" y="150" class="title" style="fill:#0078ff;" stroke="#none" stroke-width="1" >나의 랭킹</text>
-            <text text-anchor="middle" x="370" y="190" class="desc" stroke="#none" stroke-width="1" >15,321</text>
+            <text text-anchor="middle" x="370" y="190" class="desc" stroke="#none" stroke-width="1" >14,506</text>
             <text text-anchor="middle" x="450" y="190" class="desc-2" stroke="#none" stroke-width="1" >위</text>
         </svg>
         
