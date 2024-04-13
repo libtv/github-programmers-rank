@@ -29,9 +29,9 @@ public class Random_Defence {
 2447
 2448
 7570     PASS 10분
-17298
-8980
-5014
+17298    PASS 10분
+8980     PASS 25분
+5014     PASS 09분
 13335
 16920
 2457
