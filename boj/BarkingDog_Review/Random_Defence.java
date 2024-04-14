@@ -32,8 +32,8 @@ public class Random_Defence {
 17298    PASS 10분
 8980     PASS 25분
 5014     PASS 09분
-13335
-16920
+13335    PASS 14분
+16920    내 풀이 참고 -> REJECT
 2457
 2206
 9251
