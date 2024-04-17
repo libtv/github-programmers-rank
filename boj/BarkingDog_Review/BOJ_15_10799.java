@@ -35,6 +35,7 @@ public class BOJ_15_10799 {
                     }
                 }
             }
+            System.out.println(stack.toString() + "  sum : " + sum);
         }
         System.out.println(sum);
     }
