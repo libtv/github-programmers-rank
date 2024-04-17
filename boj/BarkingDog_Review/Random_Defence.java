@@ -42,9 +42,9 @@ public class Random_Defence {
 10799    PASS 35분
 2482     REJECT 풀긴 풀었는데 2시간 걸림
 1074
-14002
-6198
-2493
+14002    PASS 16분
+6198     PASS 29분
+2493     PASS 12분
 10942
 11967
 9663
