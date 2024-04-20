@@ -41,7 +41,7 @@ public class Random_Defence {
 14501    PASS 20분
 10799    PASS 35분
 2482     REJECT 풀긴 풀었는데 2시간 걸림
-1074
+1074     PASS 28분
 14002    PASS 16분
 6198     PASS 29분
 2493     PASS 12분
@@ -50,7 +50,7 @@ public class Random_Defence {
 9663     PASS 15분
 1744     PASS 32분
 11729
-4179
+4179     PASS 31분
 2133
 2011
 1629
