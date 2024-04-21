@@ -8,7 +8,6 @@ public class CollectionDictionary {
     // A == 0 E == 1 I == 2 O == 3 U == 4
     public int solution(String word) {
         init(0, "");
-        int answer = 0;
 
         StringBuilder sb = new StringBuilder();
         for(int i = 0; i < word.length(); i++){
