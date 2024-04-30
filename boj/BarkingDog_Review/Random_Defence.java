@@ -60,11 +60,11 @@ public class Random_Defence {
 17140    PASS 57분
 2293     PASS
 17142    PASS
-1398
+1398     REJECT
 2294     PASS
 17143
-1912
-11000
+1912     PASS
+11000    PASS
 18809
 9466
 2170
