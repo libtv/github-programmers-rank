@@ -65,7 +65,7 @@ public class Random_Defence {
 17143
 1912     PASS
 11000    PASS
-18809
+18809    PASS
 9466
 2170
 1915
