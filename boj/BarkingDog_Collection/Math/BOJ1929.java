@@ -18,8 +18,8 @@ public class BOJ1929 {
         for (int i = 2; i <= end; i++) {
             if(memo[i]) continue;
             if(i >= start) sb.append(i).append("\n");
-            for (int j = 2; j * i <= end; j++) {
-                memo[j * i] = true;
+            for (long j = 2; j * i <= end; j++) {
+                memo[(int)j * i] = true;
             }
         }
         System.out.println(sb);
