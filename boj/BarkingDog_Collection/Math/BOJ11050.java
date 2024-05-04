@@ -10,7 +10,7 @@ public class BOJ11050 {
         int n = Integer.parseInt(st.nextToken());
         int k = Integer.parseInt(st.nextToken());
 
-        // 이항 계수 -> 순열 n!/k! * (n-k)! 5!/2! * 3! = 10
+        // 이항 계수 -> 조합 n!/k! * (n-k)! 5!/2! * 3! = 10
 
         if(k == 0){
             System.out.println(1);
