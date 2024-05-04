@@ -14,7 +14,6 @@ public class BOJ1929 {
         boolean [] memo = new boolean[end+1];
         memo[0] = true;
         memo[1] = true;
-
         StringBuilder sb = new StringBuilder();
         for (int i = 2; i <= end; i++) {
             if(memo[i]) continue;
