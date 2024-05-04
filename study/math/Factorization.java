@@ -16,5 +16,4 @@ public class Factorization {
         if(target != 1) list.add(target);
         System.out.println(list);
     }
-
 }
