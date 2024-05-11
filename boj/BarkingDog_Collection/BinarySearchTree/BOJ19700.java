@@ -46,10 +46,3 @@ public class BOJ19700 {
         System.out.println(sum);
     }
 }
-/*
-
-
-
-
-
- */
