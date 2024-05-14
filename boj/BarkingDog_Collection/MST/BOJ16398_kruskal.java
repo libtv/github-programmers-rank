@@ -3,7 +3,8 @@ package boj.BarkingDog_Collection.MST;
 /**
  * 행성 연결 골드4
  * MST - 크루스칼
- * 1636ms
+ * 1. 1636ms
+ * 2. 의미 없는 간선 주석 (30 line) : 1416ms
  */
 import java.io.*;
 import java.util.*;
@@ -26,7 +27,7 @@ public class BOJ16398_kruskal {
                 int c = Integer.parseInt(st.nextToken());
                 if(i == j) continue;
                 edges.add(new int[]{i, j, c});
-                edges.add(new int[]{j, i, c});
+                // edges.add(new int[]{j, i, c});
             }
         }
         Collections.sort(edges, Comparator.comparingInt(o -> o[2]));
