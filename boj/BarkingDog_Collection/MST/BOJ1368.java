@@ -32,37 +32,29 @@ public class BOJ1368 {
             st = new StringTokenizer(br.readLine());
             for (int j = 1; j <= n; j++) {
                 int c = Integer.parseInt(st.nextToken());
-                if(i == j) continue;
+                if(i == j){
+                    graph[0].add(new int[]{i, cost[i]});
+                    continue;
+                }
                 graph[i].add(new int[]{j, c});
             }
         }
 
-        Collections.sort(list, (o1,o2)->{
-            return o1[1] - o2[1];
-        });
-
-        sum = list.get(0)[1];
-        int root = list.get(0)[0];
-
         boolean [] visited = new boolean[n+1];
-        visited[root] = true;
+        visited[0] = true;
 
         PriorityQueue<int[]> pq = new PriorityQueue<>(Comparator.comparingInt(o -> o[1]));
-        for (int[] ints : graph[root]) {
+        for (int[] ints : graph[0]) {
             pq.add(ints);
         }
 
         int cnt = 0;
-        while (cnt < n - 1){
+        while (cnt < n){
             int [] temp = pq.poll();
             if(visited[temp[0]]) continue;
             visited[temp[0]] = true;
             cnt++;
-            // 연결 vs 현재 논 우물
-            if(temp[1] <= cost[temp[0]]){
-                sum += temp[1];
-            }
-            else sum += cost[temp[0]];
+            sum += temp[1];
             for (int i = 0; i < graph[temp[0]].size(); i++) {
                 int [] next = graph[temp[0]].get(i);
                 if(visited[next[0]]) continue;
