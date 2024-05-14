@@ -40,15 +40,12 @@ public class BOJ1368 {
                 graph[i].add(new int[]{j, c});
             }
         }
-
         boolean [] visited = new boolean[n+1];
         visited[0] = true;
-
         PriorityQueue<int[]> pq = new PriorityQueue<>(Comparator.comparingInt(o -> o[1]));
         for (int[] ints : graph[0]) {
             pq.add(ints);
         }
-
         int cnt = 0;
         while (cnt < n){
             int [] temp = pq.poll();
