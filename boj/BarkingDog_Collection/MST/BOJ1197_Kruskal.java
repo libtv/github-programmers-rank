@@ -7,7 +7,7 @@ package boj.BarkingDog_Collection.MST;
  */
 import java.io.*;
 import java.util.*;
-public class BOJ1197 {
+public class BOJ1197_Kruskal {
     static int [] parent = new int[10001]; // 정점의 최대 개수 10000
     static int n, e; // 정점, 간선의 개수
     public static void main(String[] args) throws IOException{
