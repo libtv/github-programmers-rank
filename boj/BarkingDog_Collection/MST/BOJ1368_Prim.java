@@ -3,12 +3,13 @@ package boj.BarkingDog_Collection.MST;
 /**
  * 물대기 골드2
  * MST
+ * Prim Algorithm
  * 13%  -> 가장 우물 비용이 적은 우물에서 mst 시작
  * 100% -> 가상의 정점 활용 (우물 = 0)
  */
 import java.util.*;
 import java.io.*;
-public class BOJ1368 {
+public class BOJ1368_Prim {
     static int sum = 0;
     static int [] cost;
     public static void main(String[] args) throws IOException{
