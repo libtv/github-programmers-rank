@@ -79,7 +79,7 @@
             <text text-anchor="middle" x="120" y="190" class="desc-2" stroke="#none" stroke-width="1" >문제</text>
             
             <text text-anchor="middle" x="340" y="150" class="title" style="fill:#0078ff;" stroke="#none" stroke-width="1" >나의 랭킹</text>
-            <text text-anchor="middle" x="370" y="190" class="desc" stroke="#none" stroke-width="1" >22,011</text>
+            <text text-anchor="middle" x="370" y="190" class="desc" stroke="#none" stroke-width="1" >22,020</text>
             <text text-anchor="middle" x="450" y="190" class="desc-2" stroke="#none" stroke-width="1" >위</text>
         </svg>
         
